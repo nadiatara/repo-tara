@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2>DOSIMETRIA</h2>
+        <nav>
+            <a href="../index.html">ir a inicio</a>
+            <!-- para volver a la pagina de inicio con dos puntos .. -->
+            <!-- esto se llaman RUTAS RELATIVAS -->
+        </nav>
+    </header>
+    <main>
+        <h1>celular..</h1>
+        <fieldset>
+        <!-- fieldset recuadro que se usa para encasillar -->
+            <legend>DATOS PARA CARGAR</legend>
+            <!-- legend para dar un titulo o descripicion a los input -->
+            <form>
+                <div>
+                <!-- form es formulario, imput nos hace un casillero para escribir -->
+                    <leabel for="nombre">escribe tu nombre</leabel></leabel>
+                    <!-- leabel tiene un atributo FOR que es para vincular el LEABEL al INPUT, creo un atributo ID(debe ser unico, no se puede repetir) en input -->
+                    <input type="text" id="nombre" placeholder="COSME FULANO" required>
+                    <input type="submit" value="enviar mensaje">
+                    <!-- input VALUE nos permite personalizar el boton de dirigir el dato cargado -->
+                    <!-- input VALUE nos permite personalizar el boton de dirigir el dato cargado -->
+                </div>
+                <div>
+                    <leabel for="email">escribe tu email</leabel></leabel>
+                    <!-- leabel tiene un atributo FOR que es para vincular el LEABEL al INPUT, creo un atributo ID(debe ser unico, no se puede repetir) en input -->
+                    <input type="text" id="email" placeholder="cosmefulano@gmail.com">
+                    <input type="submit" value="enviar mensaje">
+                </div>
+                <div>
+                    <leabel for="mensaje">DATO O MENSAJE</leabel>
+                    <textarea id="mensaje" cols="30" rows="10"></textarea>
+                    <!-- COLS y ROWS son para el tamaño del area, COLS ancho ROWS alto -->
+                    <input type="reset" value="BORRAR">
+                    <!-- EL RESET se usa para cerar el boton borrar, ya casi no se usa -->
+                </div>
+                <!-- div son divisores para ordenar -->
+            </form>
+        </fieldset>
+        
+      
+    </main>
+</body>
+</html>
